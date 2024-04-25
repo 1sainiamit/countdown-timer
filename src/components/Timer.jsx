@@ -24,7 +24,6 @@ export default function App() {
   useEffect(() => {
     if (timer === 0) {
       clearInterval(timeInterval);
-      // You can add additional logic here when the timer reaches 0
     }
   }, [timer, timeInterval]);
 
